@@ -9,7 +9,7 @@ homepage = "https://github.com/yoelt11"
 repository = "https://github.com/yoelt11/rename-files"
 keywords = ["cli","file","rename"]
 categories_= ["commad-line-utilities"]
-edition = "2022"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
