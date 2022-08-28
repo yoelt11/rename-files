@@ -29,6 +29,6 @@ pub fn rename(pattern:&String, idx:i32, fulldir:&PathBuf, ext:&String){
     } else {
         outdir.set_extension(""); // replace extension
     }
-    fs::rename(fulldir, outdir);  
+    fs::copy(fulldir, outdir);  
     fs::remove_file(fulldir);
 }

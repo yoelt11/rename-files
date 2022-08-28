@@ -52,6 +52,5 @@ fn main() {
     
     // rename temporary folder to original folder and delete temporary folder
     fs::rename("../tmp_file_rename/", args.path );
-    fs::remove_dir_all("../tmp_file_rename/");
     progres_bar.finish_with_message("done");
 }
